@@ -78,3 +78,15 @@ class todoList:
         addedGroup = todoGroup
         addedGroup.setName(inName)
         self.groups += addedGroup
+
+    # deleteGroup will take a string representing a todogroup name and
+    #   remove it from the list.
+    # deleteGroup: todoList Str -> None
+    # Effects: todoList is modified
+    def deleteGroup(self, inName):
+        for i in self.groups:
+            if i.Name == inName:
+
+            else:
+                pass
+        return "Group does not exist."
