@@ -59,10 +59,10 @@ class todoGroup:
             secondProcess = []
             thirdProcess = []
             for i in range(0, len(self.contents)):
-
+                # Put sorting here
         elif direction == "descending":
             for i in range(0, len(self.contents)):
-
+                # Put sorting here
         else:
             return "Invalid direction given"
 
